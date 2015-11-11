@@ -44,11 +44,12 @@ body {
 #wrapper h2 {
 	color: black; 
 	font-size: 50px; 
-	margin-bottom: 1em; 
+	margin-bottom: 0.5em; 
 }
 
-#wrapper a {
-font-size: 25px; 
+#wrapper button {
+	font-size: 25px; 
+	text-align: center; 
 }
 
 #titre {

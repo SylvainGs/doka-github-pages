@@ -44,13 +44,7 @@
         <li><a href="#">Contact</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aide<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
+          
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -60,8 +54,43 @@
   <div ID=wrapper> 
     <h1>Trouvez le <span style="color: orange;">cadeau idéal</span> </h1>
     <h2>Autour de vous</h2>
-    <a href="#" class="btn btn-warning">Téléchargez l'application</a>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
+  Devenez Bêta-testeur
+</button>
   </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="wufoo-q140aii91efb95m">
+Fill out my <a href="https://sylvaings.wufoo.com/forms/q140aii91efb95m">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">The easy to use <a href="http://www.wufoo.com/form-builder/">Wufoo form builder</a> helps you make forms easy, fast, and fun.</div>
+<script type="text/javascript">var q140aii91efb95m;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'sylvaings',
+'formHash':'q140aii91efb95m',
+'autoResize':true,
+'height':'453',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { q140aii91efb95m = new WufooForm();q140aii91efb95m.initialize(options);q140aii91efb95m.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="spacer"></div>
 
@@ -93,7 +122,7 @@
           </div>
           </div>
       
-      <a ID="bouton" href="#" class="btn btn-warning">Téléchargez l'application</a>
+      <a ID="bouton" href="#" class="btn btn-warning">Devenez Bêta-testeur</a>
 
       <div class="spacer"></div>
       
